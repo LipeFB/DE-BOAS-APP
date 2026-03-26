@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.fechar {
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+.area-video {
+  width: 100%;
+  height: 250px;
+  background-color: #dcdcdc;
+  margin-bottom: 10px;
+}
+
+.tempos {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.barra-progresso {
+  width: 100%;
+  height: 8px;
+  border: 1px solid #000;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.progresso-atual {
+  height: 100%;
+  width: 40%;
+  background-color: #b0b0b0;
+}
+
+.botao-play {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.triangulo-play {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 25px solid #000;
+  margin-left: 5px;
+}
+
+.label-objetivo {
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.caixa.nome {
+  border: 1px solid #000;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: bold;
+  width: 150px;
+  border-radius: 5px;
+}

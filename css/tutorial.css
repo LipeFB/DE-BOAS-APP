@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: corben, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffe6a7;
+}
+
+.bemvindo {
+  text-align: center;
+  margin-bottom: 40px;
+  max-width: 280px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+} 
+
+.deboas {
+  font-weight: 550;
+  font-size: 25px;
+}
+
+.subtitulo {
+  font-size: 14px;
+}
+
+.imagembemvindo {
+  width: 200px;
+  height: 200px;
+  display: block;
+  border-radius: 10px;
+}
+.animacao {
+  animation: flutuar 5s ease-in-out infinite;
+}
+
+@keyframes flutuar {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+    transform: translateY(+8px); /* Move para cima */
+  }
+}
+
+
+.botao {
+  margin-top: 40px;
+  padding: 12px 40px;
+  background-color: #432818;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 550;
+  cursor: pointer;
+}
