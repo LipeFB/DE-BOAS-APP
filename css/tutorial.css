@@ -64,3 +64,13 @@ body {
   font-weight: 550;
   cursor: pointer;
 }
+
+.botao:hover {
+  background-color: rgba(83, 58, 44, 0.701);
+  transition: 0.5s;
+}
+
+.botao:active{
+  background-color: #4328187a;
+  transition: 0.15s;
+}

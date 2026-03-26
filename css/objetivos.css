@@ -12,12 +12,16 @@ body {
 }
 
 .header-objetivos {
+  background-color: #99582A;
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 20px;
-  /*border-bottom: 2px solid #000;*/
-  margin-bottom: 15px;
+  border: 2px solid #000;
+  margin-bottom: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 
@@ -25,8 +29,14 @@ body {
   display: flex;
   align-items: center;
   background-color: white;
-  padding: 15px;
+  width: auto;
+  height: auto;
+  padding: 5px;
   border: 1px solid #000;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
   text-decoration: none;
   color: #000;
 }
@@ -36,7 +46,7 @@ body {
   height: 100px;
   display: block;
   border-radius: 10px;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .textos-cartao {
